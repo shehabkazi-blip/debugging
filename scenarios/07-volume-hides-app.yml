@@ -1,0 +1,5 @@
+services:
+  api:
+    volumes:
+      - ./empty-app:/app
+    restart: "no"

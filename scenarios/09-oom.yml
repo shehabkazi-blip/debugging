@@ -1,0 +1,5 @@
+services:
+  api:
+    mem_limit: 128m
+    environment:
+      ALLOCATE_MB: 300

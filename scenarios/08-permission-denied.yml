@@ -1,0 +1,6 @@
+services:
+  api:
+    volumes:
+      - ./readonly-data:/data:ro
+    command: ["sh", "-c", "echo test > /data/output.txt && npm start"]
+    restart: "no"

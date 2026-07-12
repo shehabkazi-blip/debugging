@@ -1,0 +1,4 @@
+services:
+  api:
+    command: ["npm", "run", "start-does-not-exist"]
+    restart: "no"

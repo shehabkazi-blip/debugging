@@ -1,0 +1,5 @@
+services:
+  api:
+    environment:
+      DB_PASSWORD: ""
+    restart: "no"
