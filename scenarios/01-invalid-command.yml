@@ -1,4 +1,4 @@
 services:
   api:
-    command: ["npm", "run", "start-does-not-exist"]
+    command: ["npm", "start"] #"start-does-not-exist"
     restart: "no"

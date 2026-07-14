@@ -1,4 +1,4 @@
 services:
   api:
-    command: ["sh", "-c", "echo '[FATAL] Simulated startup crash'; exit 1"]
+    # command: ["sh", "-c", "echo '[FATAL] Simulated startup crash'; exit 1"]
     restart: always

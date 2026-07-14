@@ -1,4 +1,4 @@
 services:
   api:
     environment:
-      BIND_ADDRESS: 127.0.0.1
+      BIND_ADDRESS: 0.0.0.0

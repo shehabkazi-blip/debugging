@@ -1,7 +1,7 @@
 services:
   api:
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/healthz"]
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/health"]
       interval: 4s
       timeout: 2s
       retries: 3

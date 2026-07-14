@@ -1,5 +1,5 @@
 services:
   api:
     volumes:
-      - ./empty-app:/app
+      - ./app:/app
     restart: "no"
